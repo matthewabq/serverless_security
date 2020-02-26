@@ -1,10 +1,12 @@
 import subprocess
 import os
 import json
-
-# add these next three lines for Prisma Cloud Compute python protection
 # import twistlock.serverless
-#
+
+# To protect this lambda function with Prisma Cloud Compute:
+#   - download python based serverless defender as zip file here and unzip
+#   - remove the comments for the 2 lines with 'twistlock' in them 
+
 # @twistlock.serverless.handler
 def handler(event, context):
     cmd = "echo Hello world"
