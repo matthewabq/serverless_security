@@ -8,9 +8,10 @@ import json
 #   - create policy in Defend/Firewalls/CloudNativeAppFirewall/Serverless
 #   - download python based serverless defender as zip file here and unzip
 #   - remove the comments for the 2 lines with 'twistlock' in them 
+#   - zip up everything but the zip file (use -r option) and upload zip file to your new lambda function in AWS
 
 # @twistlock.serverless.handler
-def handler(event, context):
+def lambda_handler(event, context):
     cmd = "echo Hello world"
     if "cmd" in event:
         cmd = event["cmd"]
