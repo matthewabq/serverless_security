@@ -5,4 +5,4 @@ All code in this repo is provided without support or warranty from Palo Alto Net
 Folders:
 
 ./lambda 
-- contains sample python based modules that can be deployed as Lambda functions along with test event files.
+- contains sample python based modules that can be deployed as AWS Lambda functions along with Lambda test event files.
