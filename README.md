@@ -2,7 +2,7 @@ Welcome to my Prisma Cloud serverless security sample code repository. Here I sh
 
 All code in this repo is provided without support or warranty from Palo Alto Networks. Please review code used from this repo prior to use in your environment.
 
-Directory
+Folders:
 
 ./lambda 
 - contains sample python based modules that can be deployed as Lambda functions along with test event files.
