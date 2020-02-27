@@ -5,3 +5,5 @@ To protect this lambda function with Prisma Cloud Compute:
 2. Create policy in Defend/Firewalls/CloudNativeAppFirewall/Serverless.
 3. Download python based serverless defender as zip file here and unzip
 4. Remove the comments for the 2 lines with 'twistlock' in main.py.
+5. Remove python_defender.zip file.
+6. zip up contents of this folder and sub-folders and upload to your AWS Lambda function.
